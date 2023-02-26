@@ -1,0 +1,59 @@
+body{
+  font-family: cursive;
+  padding: 0 100px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav{
+  padding: 10px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: blueviolet;
+  color: white;
+}
+
+.nav>div{
+  display: flex;
+  align-items: center;
+}
+
+.nav>div>img{
+  width: 50px;
+  margin-right: 10px;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+.meme_text{
+  padding: 10px 25px;
+  width: 80%;
+}
+
+.meme_text>input{
+  padding: 10px;
+  border: 1px solid;
+  width: 30%;
+  margin-right: 50px;
+}
+
+.meme_text> button{
+  display: block;
+  padding: 10px;
+  width: 100%;
+  font-size: large;
+  margin-top: 20px;
+  font-family: inherit;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+}
+
+.meme_text> button:hover{
+  cursor: pointer;
+  background-color: purple;
+}
